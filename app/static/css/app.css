@@ -2,6 +2,35 @@ body {
     padding-top: 5rem;
 }
 
-footer  {
+footer {
     padding-top: 20px;
+}
+
+.news__list {
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.news__list>li {
+    background-color: #f1f1f1;
+    width: 340px;
+    margin: 10px;
+    text-align: ledt;
+    box-shadow: 10px 8px 10px #888888;
+    border: 0.5px solid #888888;
+    height: 450px;
+    position: relative;
+    list-style-type: none;
+}
+
+.news__listPara {
+    text-align: left;
+    padding: 5px;
+}
+
+.news__listImage {
+    width: 200px;
+    height: 200px;
+    text-align: center;
 }
