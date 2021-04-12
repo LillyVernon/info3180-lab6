@@ -16,12 +16,13 @@ footer {
     background-color: #f1f1f1;
     width: 340px;
     margin: 10px;
-    text-align: ledt;
+    text-align: left;
     box-shadow: 10px 8px 10px #888888;
     border: 0.5px solid #888888;
     height: 450px;
     position: relative;
     list-style-type: none;
+    padding: 10px;
 }
 
 .news__listPara {
@@ -30,7 +31,9 @@ footer {
 }
 
 .news__listImage {
-    width: 200px;
+    width: 210px;
     height: 200px;
-    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
